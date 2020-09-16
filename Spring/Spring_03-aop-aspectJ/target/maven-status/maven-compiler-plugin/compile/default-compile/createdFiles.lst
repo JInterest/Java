@@ -1,0 +1,8 @@
+com\test\service\pack04\OneServiceImpl.class
+com\test\service\pack01\OneService.class
+com\test\service\pack01\OneServiceImpl.class
+com\test\service\pack02\OneServiceImpl.class
+com\test\service\pack03\OneService.class
+com\test\service\pack03\OneServiceImpl.class
+com\test\service\pack02\OneService.class
+com\test\aspectJ\Advice.class

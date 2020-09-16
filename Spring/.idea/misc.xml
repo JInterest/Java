@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Spring_08-spring-web" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_01" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_02-receiveParameters" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_03-return" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_04-url-pattern" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Spring_1/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_01/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_02/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_03-aop-aspectJ/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_04-spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_04-spring整合mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_04-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_05-trans/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_05-trans-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_06-trans-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_07-trans - aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_08-spring-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_07-trans-aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_02-receiveParameters/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_03-return/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_04-url-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

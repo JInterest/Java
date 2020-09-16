@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSM/SSM.iml" filepath="$PROJECT_DIR$/SSM/SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_01/SpringMVC_01.iml" filepath="$PROJECT_DIR$/SpringMVC_01/SpringMVC_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_02-receiveParameters/SpringMVC_02-receiveParameters.iml" filepath="$PROJECT_DIR$/SpringMVC_02-receiveParameters/SpringMVC_02-receiveParameters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_03-return/SpringMVC_03-return.iml" filepath="$PROJECT_DIR$/SpringMVC_03-return/SpringMVC_03-return.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_04-url-pattern/SpringMVC_04-url-pattern.iml" filepath="$PROJECT_DIR$/SpringMVC_04-url-pattern/SpringMVC_04-url-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_01/Spring_01.iml" filepath="$PROJECT_DIR$/Spring_01/Spring_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_02/Spring_02.iml" filepath="$PROJECT_DIR$/Spring_02/Spring_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_03-aop-aspectJ/Spring_03-aop-aspectJ.iml" filepath="$PROJECT_DIR$/Spring_03-aop-aspectJ/Spring_03-aop-aspectJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_04-mybatis/Spring_04-mybatis.iml" filepath="$PROJECT_DIR$/Spring_04-mybatis/Spring_04-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_04-spring-mybatis/Spring_04-spring-mybatis.iml" filepath="$PROJECT_DIR$/Spring_04-spring-mybatis/Spring_04-spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_05-trans/Spring_05-trans.iml" filepath="$PROJECT_DIR$/Spring_05-trans/Spring_05-trans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_06-trans-anno/Spring_06-trans-anno.iml" filepath="$PROJECT_DIR$/Spring_06-trans-anno/Spring_06-trans-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_07-trans-aspectj/Spring_07-trans-aspectj.iml" filepath="$PROJECT_DIR$/Spring_07-trans-aspectj/Spring_07-trans-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_08-spring-web/Spring_08-spring-web.iml" filepath="$PROJECT_DIR$/Spring_08-spring-web/Spring_08-spring-web.iml" />
+    </modules>
+  </component>
+</project>

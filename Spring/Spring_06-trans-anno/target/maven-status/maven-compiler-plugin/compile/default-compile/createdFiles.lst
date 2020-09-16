@@ -1,0 +1,7 @@
+cn\JInterest\service\Impl\BuyGoodsServiceImpl.class
+cn\JInterest\dao\SaleDao.class
+cn\JInterest\service\BuyGoodsService.class
+cn\JInterest\dao\GoodsDao.class
+cn\JInterest\domain\Sale.class
+cn\JInterest\domain\Goods.class
+cn\JInterest\except\NotEnoughException.class

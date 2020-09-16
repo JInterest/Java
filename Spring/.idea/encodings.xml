@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SSM/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SSM/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_02-receiveParameters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_02-receiveParameters/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_03-return/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_03-return/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_04-url-pattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC_04-url-pattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_03-aop-aspectJ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_03-aop-aspectJ/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_04-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_04-spring-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_04-spring-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_05-trans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_05-trans/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_06-trans-anno/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_06-trans-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_06-trans-anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_07-trans-aspectj/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_07-trans-aspectj/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_08-spring-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_08-spring-web/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

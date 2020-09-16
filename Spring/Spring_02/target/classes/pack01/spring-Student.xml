@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--byName；找到属性名、类型和bean中的id、class一一匹配的然后注入-->
+    <bean id="student" class="com.text.pack01.Student" autowire="byName">
+        <!--通过set方法注入-->
+        <property name="name" value="lisi"/>
+        <property name="age"  value="20"/>
+    </bean>
+
+
+<!--    <import resource="classpath:pack01/spring-School.xml"/>
+    <bean id="myStudent" class="com.text.pack01.Student" >
+        &lt;!&ndash;通过构造函数注入&ndash;&gt;
+        &lt;!&ndash;<constructor-arg name="name" value="李四"/>
+        <constructor-arg name="age" value="20"/>
+        <constructor-arg name="school" ref="school"/>&ndash;&gt;
+
+       &lt;!&ndash; <constructor-arg index="0" value="0"/>
+        <constructor-arg index="1" value="1"/>
+        <constructor-arg index="2" ref="school"/>&ndash;&gt;
+
+        <constructor-arg  value="0"/>
+        <constructor-arg  value="1"/>
+        <constructor-arg  ref="school"/>
+    </bean>-->
+</beans>

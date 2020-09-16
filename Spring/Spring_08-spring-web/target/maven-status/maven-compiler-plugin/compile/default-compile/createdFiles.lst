@@ -1,0 +1,6 @@
+cn\JInterest\dao\OrderDao.class
+cn\JInterest\dao\StudentDao.class
+cn\JInterest\controller\RegisterServlet.class
+cn\JInterest\service\StudentService.class
+cn\JInterest\domain\Student.class
+cn\JInterest\service\impl\StudentServiceImpl.class

@@ -1,0 +1,5 @@
+cn\JInterest\dao\StudentDao.class
+cn\JInterest\service\StudentService.class
+cn\JInterest\domain\Student.class
+cn\JInterest\controller\StudentController.class
+cn\JInterest\service\impl\StudentServiceImpl.class
