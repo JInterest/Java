@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="01_fristWeb:war exploded">
+    <output-path>$PROJECT_DIR$/JDBCTest/out/artifacts/01_fristWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="01_fristWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="01_fristWeb" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
