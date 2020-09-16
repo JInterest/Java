@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--使用配置文件加载数据库连接属性-->
+    <properties resource="db.properties"></properties>
+
+<!--
+    设置与数据库交互环境
+        例如可以在此处配置二级缓存，配置查询延迟加载策略等等。。
+            配置的目的是为了更有效的查询表中的记录
+
+            实际开发中基本没用 效果不明显 现在有其他策略
+
+            基础操作
+                对于常用的查询条件的字段，设置索引
+            高级操作
+                使用nosql数据库，redis
+            专业操作
+                Elasticsearch与Solr 针对于电商行业
+    <settings>
+        <setting name="" value=""/>
+    </settings>
+-->
+
+<!--为mapper映射文件中的domain起别名-->
+    <typeAliases>
+        <!--<typeAlias type="com.test.domain.Student" alias="stu" />-->
+        <!--package 批量起别名 系统取好了，别名为类名（区分大小写）-->
+        <package name="com.test.domain"/>
+    </typeAliases>
+
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--<mapper resource="com\test\dao\StudentDao.xml"/>-->
+        <!--<mapper class="com.test.dao.StudentDao" />-->
+        <!--该包下的mapper映射文件自动注册-->
+        <package name="com.test.dao"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace:命名空间
+               不同的mapper映射文件使用namespace来做区分
+               不同的mapper映射文件所使用的namespace的命名不允许出现重复
+    使用dao动态代理 namespace必须是全限定名
+-->
+<mapper namespace="com.test.dao.StudentDao">
+    <!--
+            <select>中parameterType可以不写
+                      resultType必须有
+            <insert><update><delete>中通常只写 id 属性
+    -->
+    <select id="selectById" parameterType="java.lang.String" resultType="com.test.domain.Student">
+        select * from t_student where id = #{id}
+    </select>
+    <!--如果返回的是多条记录，那么resultType 返回值类型为集合的泛型（student）-->
+    <select id="selectAll" resultType="Student">
+        select * from t_student
+    </select>
+
+    <insert id="addStu">
+        insert into t_student(id,name,age) value(#{id},#{name},#{age})
+    </insert>
+
+    <update id="updateStu">
+        update t_student set name=#{name} , age=#{age} where id=#{id}
+    </update>
+
+    <delete id="dleById">
+        delete from t_student where id=#{id}
+    </delete>
+
+    <!-- 数据库表不变，现在有一个类属性名和字段对应不上的情况
+             type：指定一个类型，与数据库表一一对应，建立起表字段和类属性的名字一一匹配的关系-->
+    <resultMap id="stuMap" type="Student">
+        <!--
+        id:定义主键
+        property:类中的属性名
+        column: 表中的字段名
+        -->
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="age" column="age"/>
+    </resultMap>
+    
+    <select id="selectAll2" resultMap="stuMap">
+        select * from t_student
+    </select>
+
+    <!--动态sql-->
+    <select id="find" resultType="student">
+        select * from t_student
+        <!--
+            where搭配if标签使用  通过if标签来判断
+            如果查询条件不匹配 则不再sql中加where关键字
+
+            where 忽略第一个and
+        -->
+        <where>
+            <if test="name!=null and name!=''">
+                <!--'%'中间加空格  '%' #{name} '$'-->
+                name like '%' #{name} '%'
+            </if>
+            <if test="address!=null and address!=''">
+                and address like '%' #{address} '%'
+            </if>
+        </where>
+
+    </select>
+
+    <!--foreach-->
+    <select id="selectById2" resultType="student">
+        select * from t_student
+        where id in
+
+        <foreach collection="array" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </select>
+
+    <!--
+    sql片段
+    代替重复性高，且复杂的子查询
+    一般不用  会减低代码可读性
+    -->
+    <sql id="selectAll" >
+        select * from t_student
+    </sql>
+    <select id="selectById3" resultType="student">
+        <include refid="selectAll" /> where id=#{id}
+    </select>
+
+
+    <!--多表联查
+            查询结果放回map类型 或者 返回 VO类型（两张表相应属性的类 ）
+            如果前端需求重复率不高，选择map
+            如果前端需求重复率高，可以创建一个vo类来使用
+     -->
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

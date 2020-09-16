@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace:命名空间
+               不同的mapper映射文件使用namespace来做区分
+               不同的mapper映射文件所使用的namespace的命名不允许出现重复
+-->
+<mapper namespace="test1">
+    <!--
+            <select>中parameterType可以不写
+                      resultType必须有
+            <insert><update><delete>中通常只写 id 属性
+    -->
+    <select id="selectById" parameterType="java.lang.String" resultType="com.Student">
+        select * from t_student where id = #{id}
+    </select>
+    <!--如果返回的是多条记录，那么resultType 返回值类型为集合的泛型（student）-->
+    <select id="selectAll" resultType="com.Student">
+        select * from t_student
+    </select>
+
+    <insert id="addStu">
+        insert into t_student(id,name,age) value(#{id},#{name},#{age})
+    </insert>
+
+    <update id="updateStu">
+        update t_student set name=#{name} , age=#{age} where id=#{id}
+    </update>
+
+    <delete id="deleteStu">
+        delete from t_student where id=#{id}
+    </delete>
+</mapper>
+
+
